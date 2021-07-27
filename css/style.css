@@ -1,0 +1,154 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1146px;
+    margin: auto;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    padding-top: 55px;
+    padding-bottom: 62px;
+    /* margin-top: 55px; */
+}
+
+nav{
+    padding-top: 27px;
+    padding-bottom: 26px;
+    background-color: #003395;
+    
+}
+
+footer{
+    display: block;
+    background-color: #003395;
+    color: white;
+    text-align: right;
+    padding: 45px 0 83px;
+}
+
+.sky{
+    background-image: url(../images/headerback.svg);
+    padding-top: 120px;
+    padding-bottom: 138px;
+    background-position: left top;
+    background-size: cover;
+}
+
+h1{
+    color: #003395;
+    padding-bottom: 26px;
+}
+
+.underlocalize{
+    font-weight: bold;
+}
+
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 62px;
+}
+
+.partleft{
+    display: inline-block;
+    width: 754px;
+    vertical-align: top;
+    /* margin: 57px 30px 62px 0; */
+}
+
+.partright{
+    display: inline-block;
+    width: 362px;
+    margin-left: 30px;
+        
+}
+
+.partleft a{
+    color: #003395;
+}
+
+.partleft h2{
+    color: #003395;
+    font-size: 27px;
+    border-top: 2px #003395 solid;
+    border-bottom: 2px #003395 solid;
+    padding: 13px 0 15px;
+    margin-bottom: 16px;
+}
+
+.partright a{
+    color: #30233D;
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 163.3%;
+}
+
+.partright h2{
+    color: white;
+    padding-left: 17px;
+}
+
+.newsbox{
+    border: 2px solid #33008D;
+    /* margin-top: 55px; */
+    padding: 19px 19px 26px 19px;
+       
+}
+
+.newsbox h2{
+    background-color: #24B0FF;
+    /* margin: 19px 19px 12px 19px; */
+    /* padding-top: 16px; */
+    /* padding-bottom: 16px; */
+    margin-bottom: 14px;
+    padding: 14px 17px;
+}
+
+.linksbox{
+    border: 2px solid #33008D;
+    margin-top: 55px;
+    /* margin-bottom: 158.4px ;   */
+    padding: 22px 19px 9px 19px;
+}
+
+.linksbox h2{
+    background-color: #24B0FF;
+    /* margin: 22px 19px; */
+    /* padding-top: 16.66px;
+    padding-bottom: 10.86px; */
+    padding: 16.66px 17px 10.86px 17px;
+    margin-bottom: 22px;
+}
+
+.partleft p{
+    color: #30233D;
+    font-size: 24px;
+}
+
+.partright p{
+    color: #30233D;
+    font-size: 16.2px;
+    /* margin: 12px 53px 18px 19px; */
+}
+
+.linkstext a{
+    margin: 22px 64px 10.6px 19px;
+}
+
+.parts{
+    display: inline-block;
+    width: 60% 35%;
+    vertical-align: top;
+}
+
+.welcome{
+    margin-bottom: 34px;
+}
